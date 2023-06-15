@@ -1,0 +1,48 @@
+.error-page{
+        justify-content: center;
+        gap: 20px;
+        background-color: #F2E5D7;
+        margin-left: 20px;
+        margin-right: 20px;
+        position: relative;
+    }
+
+.img{
+    height: 58%;
+    width: 58%;
+    margin-left: 25%;
+    margin-top: 5px;
+}
+
+.txt{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+    font-family: 'Telma', cursive;
+    color: #F2E5D7;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* RESPONSIVE  */
+@media (max-width: 1200px) {
+    .txt{
+        left: 31%;
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 580px){
+
+    .txt{
+        font-size: 40px;
+        left: 18%;
+    }
+
+    .img{
+        height: 100%;
+        width: 100%;
+        margin-left: 0%;
+    }
+}

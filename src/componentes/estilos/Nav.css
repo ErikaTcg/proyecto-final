@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #FEEFDD;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.guia:hover{
+    background-color: #F2E5D7 ;
+    overflow:hidden;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 10px;
+}
+
+.icono{
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px){
+    .nav{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 580px){
+    .nav{
+        justify-content: center;
+        margin-left: 50px;
+    }
+}
+ 
+
+

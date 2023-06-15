@@ -1,0 +1,148 @@
+
+/* PANEL CONTROL GENERAL  */
+.container-panelcontrol{
+    text-align: center;
+    margin: 30px;
+}
+
+.container-panelcontrol h1{
+    font-family: 'Telma', cursive;
+    color: #262322;
+    font-size: 77px;
+    text-shadow: 2px 2px 2px #C97D60;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.container-estadisticas{
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;   
+}
+
+/* TOTAL PEDIDOS  */
+.total{
+    height:200px;
+    background-color: #C97D60;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.total p{
+    margin: 20px;
+    height: 40px;
+    width: 390px;
+    font-family: 'Telma', cursive;
+    color: #F2E5D7;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* # TOTAL PRODUCTOS EN VENTA  */
+.total-productos{
+    height:200px;
+    background-color: #C97D60;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-productos h2{
+    width: 390px;
+    font-family: 'Telma', cursive;
+    color: #F2E5D7;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
+
+.total-productos p{
+    width: 390px;
+    font-family: 'Telma', cursive;
+    color: #F2E5D7;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+
+/* PRECIO PROMEDIO ITEMS */
+.promedio{
+    height:200px;
+    background-color: #C97D60;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.promedio h2{
+    font-family: 'Telma', cursive;
+    color: #F2E5D7;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
+
+.promedio p{
+    font-family: 'Telma', cursive;
+    color: #F2E5D7;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+
+/* TOP 3 VENTAS  */
+.top-sales{
+    height:200px;
+    background-color: #C97D60;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-sales h2{
+    font-family: 'Telma', cursive;
+    color: #F2E5D7;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6); 
+    margin-top: 10px;
+}
+
+.top-sales h3{
+    font-family: 'Telma', cursive;
+    color: #F2E5D7;
+    font-size: 33px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.top-sales p{
+    font-family: 'Telma', cursive;
+    color: #F2E5D7;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+
+/* RESPONSIVE  */
+
+@media (max-width: 1200px){
+  .container-estadisticas{
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px; 
+  } 
+}
+
+@media (max-width:580px){
+  
+  .top-sales{
+    height:300px;
+  }
+
+  .container-panelcontrol h1{
+    font-size: 55px;
+
+  }
+}
